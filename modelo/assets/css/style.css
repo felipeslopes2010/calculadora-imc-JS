@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86 ,102)
+}
+
+ * {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-color: RGB(74, 207, 238);
+}
+
+div {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+li {
+    list-style:none;
+}
+
+ul {
+    padding: 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: RGB(74, 207, 238);
+}
+
+.divPrincipal {
+    display: flex;
+}
+
+.calculeImc {
+    padding: 20px 20px;
+}
+
+.paragrafo-resultado, .paragrafo-erro {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.paragrafo-erro {
+    background: rgb(255, 150, 150);
+}
