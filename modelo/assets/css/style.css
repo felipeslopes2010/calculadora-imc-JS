@@ -17,6 +17,9 @@ body {
     font-size: 1.3em;
     line-height: 1.5em;
     background-color: RGB(74, 207, 238);
+    background: url('../img/foto-calculadora.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div {
