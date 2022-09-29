@@ -21,13 +21,9 @@ body {
 
 div {
     max-width: 640px;
-    margin: 50px auto;
+    margin: 35px auto;
     background: #fff;
     border-radius: 10px;
-}
-
-h1{
-    text-align: center;
 }
 
 li {
@@ -53,8 +49,16 @@ button {
     background-color: RGB(74, 207, 238);
 }
 
+button:hover {
+    background-color: RGB(104, 250, 300);
+}
+
 .divPrincipal {
     display: flex;
+}
+
+h1{
+    text-align: center;
 }
 
 .calculeImc {
@@ -68,4 +72,8 @@ button {
 
 .paragrafo-erro {
     background: rgb(255, 150, 150);
+}
+
+#resultado {
+    text-align: center;
 }

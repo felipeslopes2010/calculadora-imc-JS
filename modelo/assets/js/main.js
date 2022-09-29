@@ -8,13 +8,18 @@ form.addEventListener('submit', function (e) {
     const peso = Number(inputPeso.value);
     const altura = Number(inputAltura.value);
 
+    if (!peso && !altura) {
+        setResultado('Peso e Altura inválidos, Digite um valor numérico', false);
+        return;
+    }
+
     if (!peso) {
-        setResultado('Peso inválido', false);
+        setResultado('Peso inválido, Digite um valor numérico', false);
         return;
     }
 
     if (!altura) {
-        setResultado('Altura inválida', false);
+        setResultado('Altura inválida, Digite um valor numérico', false);
         return;
     }
 
